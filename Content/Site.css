@@ -1,0 +1,57 @@
+﻿.navbar-inverse {
+    background-color: #3f33b7;
+    border-color: #333;
+}
+
+    .navbar-inverse .navbar-nav > li > a {
+        color: white;
+    }
+
+    .navbar-inverse .navbar-brand {
+        color: white;
+    }
+
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.course{
+    list-style:none;
+}
+.course > li {
+        position: relative;
+        margin-bottom: 30px;
+        margin-top: 45px;
+    }
+.course > li .date {
+            text-align: center;
+            background-color: #3f33b7;
+            color: white;
+            width: 60px;
+            border-radius: 8px;
+            float: left;
+            margin-right: 40px;
+        }
+
+.course > li .detail {
+            position: absolute;
+            top: 0;
+            float: right;
+            margin-left: 20px;
+            font-size:20px;
+        }
+    .course > li .lecture {
+        font-size: 20px;
+    }
+    .course > li .category {
+        font-size: 20px;
+    }
+.course > li .action {
+        display: none;
+        left: 70px;
+        position:absolute;
+    }
+    .course > li:hover .action {
+        display:block;
+    }
